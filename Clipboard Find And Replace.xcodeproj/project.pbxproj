@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79801CB31B8CB4FD0098E0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79801CB21B8CB4FD0098E0D5 /* AppDelegate.swift */; };
+		79801CB51B8CB4FD0098E0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79801CB41B8CB4FD0098E0D5 /* Assets.xcassets */; };
+		79801CB81B8CB4FD0098E0D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79801CB61B8CB4FD0098E0D5 /* MainMenu.xib */; };
+		79801CC31B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79801CC21B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceTests.swift */; };
+		79801CCE1B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79801CCD1B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79801CBF1B8CB4FD0098E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79801CA71B8CB4FD0098E0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79801CAE1B8CB4FD0098E0D5;
+			remoteInfo = "Clipboard Find And Replace";
+		};
+		79801CCA1B8CB4FD0098E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79801CA71B8CB4FD0098E0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79801CAE1B8CB4FD0098E0D5;
+			remoteInfo = "Clipboard Find And Replace";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79801CAF1B8CB4FD0098E0D5 /* Clipboard Find And Replace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clipboard Find And Replace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79801CB21B8CB4FD0098E0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79801CB41B8CB4FD0098E0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79801CB71B8CB4FD0098E0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79801CB91B8CB4FD0098E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79801CBE1B8CB4FD0098E0D5 /* Clipboard Find And ReplaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clipboard Find And ReplaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79801CC21B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipboard_Find_And_ReplaceTests.swift; sourceTree = "<group>"; };
+		79801CC41B8CB4FD0098E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79801CC91B8CB4FD0098E0D5 /* Clipboard Find And ReplaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clipboard Find And ReplaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79801CCD1B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipboard_Find_And_ReplaceUITests.swift; sourceTree = "<group>"; };
+		79801CCF1B8CB4FD0098E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79801CAC1B8CB4FD0098E0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79801CBB1B8CB4FD0098E0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79801CC61B8CB4FD0098E0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79801CA61B8CB4FD0098E0D5 = {
+			isa = PBXGroup;
+			children = (
+				79801CB11B8CB4FD0098E0D5 /* Clipboard Find And Replace */,
+				79801CC11B8CB4FD0098E0D5 /* Clipboard Find And ReplaceTests */,
+				79801CCC1B8CB4FD0098E0D5 /* Clipboard Find And ReplaceUITests */,
+				79801CB01B8CB4FD0098E0D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79801CB01B8CB4FD0098E0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79801CAF1B8CB4FD0098E0D5 /* Clipboard Find And Replace.app */,
+				79801CBE1B8CB4FD0098E0D5 /* Clipboard Find And ReplaceTests.xctest */,
+				79801CC91B8CB4FD0098E0D5 /* Clipboard Find And ReplaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79801CB11B8CB4FD0098E0D5 /* Clipboard Find And Replace */ = {
+			isa = PBXGroup;
+			children = (
+				79801CB21B8CB4FD0098E0D5 /* AppDelegate.swift */,
+				79801CB41B8CB4FD0098E0D5 /* Assets.xcassets */,
+				79801CB61B8CB4FD0098E0D5 /* MainMenu.xib */,
+				79801CB91B8CB4FD0098E0D5 /* Info.plist */,
+			);
+			path = "Clipboard Find And Replace";
+			sourceTree = "<group>";
+		};
+		79801CC11B8CB4FD0098E0D5 /* Clipboard Find And ReplaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				79801CC21B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceTests.swift */,
+				79801CC41B8CB4FD0098E0D5 /* Info.plist */,
+			);
+			path = "Clipboard Find And ReplaceTests";
+			sourceTree = "<group>";
+		};
+		79801CCC1B8CB4FD0098E0D5 /* Clipboard Find And ReplaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79801CCD1B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceUITests.swift */,
+				79801CCF1B8CB4FD0098E0D5 /* Info.plist */,
+			);
+			path = "Clipboard Find And ReplaceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79801CAE1B8CB4FD0098E0D5 /* Clipboard Find And Replace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79801CD21B8CB4FD0098E0D5 /* Build configuration list for PBXNativeTarget "Clipboard Find And Replace" */;
+			buildPhases = (
+				79801CAB1B8CB4FD0098E0D5 /* Sources */,
+				79801CAC1B8CB4FD0098E0D5 /* Frameworks */,
+				79801CAD1B8CB4FD0098E0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clipboard Find And Replace";
+			productName = "Clipboard Find And Replace";
+			productReference = 79801CAF1B8CB4FD0098E0D5 /* Clipboard Find And Replace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79801CBD1B8CB4FD0098E0D5 /* Clipboard Find And ReplaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79801CD51B8CB4FD0098E0D5 /* Build configuration list for PBXNativeTarget "Clipboard Find And ReplaceTests" */;
+			buildPhases = (
+				79801CBA1B8CB4FD0098E0D5 /* Sources */,
+				79801CBB1B8CB4FD0098E0D5 /* Frameworks */,
+				79801CBC1B8CB4FD0098E0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79801CC01B8CB4FD0098E0D5 /* PBXTargetDependency */,
+			);
+			name = "Clipboard Find And ReplaceTests";
+			productName = "Clipboard Find And ReplaceTests";
+			productReference = 79801CBE1B8CB4FD0098E0D5 /* Clipboard Find And ReplaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79801CC81B8CB4FD0098E0D5 /* Clipboard Find And ReplaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79801CD81B8CB4FD0098E0D5 /* Build configuration list for PBXNativeTarget "Clipboard Find And ReplaceUITests" */;
+			buildPhases = (
+				79801CC51B8CB4FD0098E0D5 /* Sources */,
+				79801CC61B8CB4FD0098E0D5 /* Frameworks */,
+				79801CC71B8CB4FD0098E0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79801CCB1B8CB4FD0098E0D5 /* PBXTargetDependency */,
+			);
+			name = "Clipboard Find And ReplaceUITests";
+			productName = "Clipboard Find And ReplaceUITests";
+			productReference = 79801CC91B8CB4FD0098E0D5 /* Clipboard Find And ReplaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79801CA71B8CB4FD0098E0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Fulgent Wake";
+				TargetAttributes = {
+					79801CAE1B8CB4FD0098E0D5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					79801CBD1B8CB4FD0098E0D5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 79801CAE1B8CB4FD0098E0D5;
+					};
+					79801CC81B8CB4FD0098E0D5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 79801CAE1B8CB4FD0098E0D5;
+					};
+				};
+			};
+			buildConfigurationList = 79801CAA1B8CB4FD0098E0D5 /* Build configuration list for PBXProject "Clipboard Find And Replace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79801CA61B8CB4FD0098E0D5;
+			productRefGroup = 79801CB01B8CB4FD0098E0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79801CAE1B8CB4FD0098E0D5 /* Clipboard Find And Replace */,
+				79801CBD1B8CB4FD0098E0D5 /* Clipboard Find And ReplaceTests */,
+				79801CC81B8CB4FD0098E0D5 /* Clipboard Find And ReplaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79801CAD1B8CB4FD0098E0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79801CB51B8CB4FD0098E0D5 /* Assets.xcassets in Resources */,
+				79801CB81B8CB4FD0098E0D5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79801CBC1B8CB4FD0098E0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79801CC71B8CB4FD0098E0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79801CAB1B8CB4FD0098E0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79801CB31B8CB4FD0098E0D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79801CBA1B8CB4FD0098E0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79801CC31B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79801CC51B8CB4FD0098E0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79801CCE1B8CB4FD0098E0D5 /* Clipboard_Find_And_ReplaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79801CC01B8CB4FD0098E0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79801CAE1B8CB4FD0098E0D5 /* Clipboard Find And Replace */;
+			targetProxy = 79801CBF1B8CB4FD0098E0D5 /* PBXContainerItemProxy */;
+		};
+		79801CCB1B8CB4FD0098E0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79801CAE1B8CB4FD0098E0D5 /* Clipboard Find And Replace */;
+			targetProxy = 79801CCA1B8CB4FD0098E0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79801CB61B8CB4FD0098E0D5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79801CB71B8CB4FD0098E0D5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79801CD01B8CB4FD0098E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79801CD11B8CB4FD0098E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79801CD31B8CB4FD0098E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Clipboard Find And Replace/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Clipboard-Find-And-Replace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79801CD41B8CB4FD0098E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Clipboard Find And Replace/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Clipboard-Find-And-Replace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79801CD61B8CB4FD0098E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Clipboard Find And ReplaceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Clipboard-Find-And-ReplaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipboard Find And Replace.app/Contents/MacOS/Clipboard Find And Replace";
+			};
+			name = Debug;
+		};
+		79801CD71B8CB4FD0098E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Clipboard Find And ReplaceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Clipboard-Find-And-ReplaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipboard Find And Replace.app/Contents/MacOS/Clipboard Find And Replace";
+			};
+			name = Release;
+		};
+		79801CD91B8CB4FD0098E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Clipboard Find And ReplaceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Clipboard-Find-And-ReplaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clipboard Find And Replace";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79801CDA1B8CB4FD0098E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Clipboard Find And ReplaceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.Clipboard-Find-And-ReplaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Clipboard Find And Replace";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79801CAA1B8CB4FD0098E0D5 /* Build configuration list for PBXProject "Clipboard Find And Replace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79801CD01B8CB4FD0098E0D5 /* Debug */,
+				79801CD11B8CB4FD0098E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79801CD21B8CB4FD0098E0D5 /* Build configuration list for PBXNativeTarget "Clipboard Find And Replace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79801CD31B8CB4FD0098E0D5 /* Debug */,
+				79801CD41B8CB4FD0098E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79801CD51B8CB4FD0098E0D5 /* Build configuration list for PBXNativeTarget "Clipboard Find And ReplaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79801CD61B8CB4FD0098E0D5 /* Debug */,
+				79801CD71B8CB4FD0098E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79801CD81B8CB4FD0098E0D5 /* Build configuration list for PBXNativeTarget "Clipboard Find And ReplaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79801CD91B8CB4FD0098E0D5 /* Debug */,
+				79801CDA1B8CB4FD0098E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79801CA71B8CB4FD0098E0D5 /* Project object */;
+}
