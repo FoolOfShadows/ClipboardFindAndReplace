@@ -27,7 +27,7 @@ func doFindAndReplace(textToFind: String, textToReplace: String, theWindow: NSWi
 
 func createAlertSheet(theWindow:NSWindow) {
 	let alertSheet = NSAlert()
-	alertSheet.messageText = "The clipboard containted no valid text with wich to work.  Please try copying your text and running the program again"
+	alertSheet.messageText = "The clipboard containted no valid text with which to work.  Please try copying your text and running the program again"
 	alertSheet.beginSheetModalForWindow(theWindow) {(NSModalResponse) -> Void in
 		//let theResponse = NSModalResponse
 	}
